@@ -1,0 +1,23 @@
+name: Request a feature
+description: An idea that would make NightCard better for your family.
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "This page is public. Please leave out your email address, Yoto account details and anything personal."
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like NightCard to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: How would it help your routine?
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Filled in by the app.
